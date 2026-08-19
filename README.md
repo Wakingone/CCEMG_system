@@ -1,6 +1,6 @@
 # This is the support dataset for the paper "Alternative energy storage capacity evaluation of heterogeneous resources and multi-stage robust scheduling for cold chain enterprise microgrid"
 ## Introduction
-The data of the tested cold chain enterprise microgrid is from a certain region in Shandong Province, China. The tested microgrid includes one hundred and thirty temporary holding ponds, one prefabricated container ES (100KW/200KWh) which could meet the heat preservation operation for two hours, one photovoltaic (PV) station (800KW), one ice storage which can store up to 40 tons, and other loads such as building loads(40kW), street lights(20kW), other facility loads(300kW). The initial energy stored in the ES is set to 100KWh and the cycling efficiency is 0.90. The power transfer limits between the microgrid and the main grid are ±350KW. Additionally, the enterprise features 130 temporary holding ponds, each with a capacity of 3,000L and a 10% water replacement requirement every 12 hours, a replacement time of 3 hours, and a temperature range of 2°C to 8°C. The oxygen content is maintained between 6 mg/L and 8 mg/L. 
+The data of the tested cold chain enterprise microgrid is from a certain region in Shandong Province, China. The tested microgrid includes one hundred and thirty temporary holding ponds, one prefabricated container ES (100KW/200KWh) which could meet the heat preservation operation for two hours, one photovoltaic (PV) station (800KW), one ice storage which can store up to 40 tons, and other loads such as building loads(40kW), street lights(20kW), other facility loads(300kW). The initial energy stored in the ES is set to 100KWh and the cycling efficiency is 0.90. The power transfer limits between the microgrid and the main grid are ±350KW. Additionally, the enterprise features 130 temporary holding ponds, each with a capacity of 3,000L and a 10% water replacement requirement every 12 hours, a replacement time of 3 hours, and a temperature range of 2°C to 8°C. The oxygen content is maintained between 6 mg/L and 8 mg/L. Additionally, the price coefficient of ES capacity in equivalent model is set to 0.6 $/kWh, while the price coefficients of charging and discharging power are set to 0.2 $/kW.
 ## Data
 1. Photovoltaic power(KW):
 
@@ -49,18 +49,20 @@ The data of the tested cold chain enterprise microgrid is from a certain region 
 | Lower bounds |1662.0 |  83.10 | 166.20 | 249.30 | 332.40 | 415.50 | 498.60 | 581.70 | 631.56  | 681.42  | 731.28  | 781.14  | 831.00  | 880.86  | 930.72  | 980.58  |1030.44  |1080.30  |1130.16  |1213.26  |1296.36  |1379.46  |1462.56  |1545.66  |1628.76  |
 
 7. Equivalent Capacity Limits of Chiller and Tempoirary Pond (KWh):
+
 | time   | 0 | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 |
 | ---------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | Upper bounds |4017.70  |4162.34  |4305.36  |4446.91  |4586.25  |4722.64  |4856.81  |4988.04  |5124.87  |5267.30  |5415.34  |5568.98  |5728.22  |5887.02  |6045.38  |6203.97  |6357.61  |6506.29  |6650.02  |6788.80  |6922.68  |7058.04  |7195.00  |7333.44  |7474.34  |
 | Lower bounds |3020.22  |3164.87  |3307.89  |3449.44  |3588.78  |3725.16  |3859.34  |3990.57  |4127.40  |4269.83  |4417.87  |4571.50  |4730.75  |4889.55  |5047.90  |5206.50  |5360.14  |5508.82  |5652.55  |5791.33  |5925.21  |6060.56  |6197.53  |6335.96  |6476.86  |
 
-8. Equivalent Capacity Limits of Aquaculture Oxygen Generator and  and Temporary Holding Pond (KWh):
+1. Equivalent Capacity Limits of Aquaculture Oxygen Generator and  and Temporary Holding Pond (KWh):
+
 | time  | 0 | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 |
 | ---------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | Upper bounds | 5.46  | 12.96 | 20.76 | 28.96 | 37.66 | 46.66 | 56.16 | 65.36 | 74.16 | 82.66 | 90.76 | 98.56 |106.06 |112.56 |117.56 |121.56 |125.86 |130.56 |135.76 |141.26 |146.86 |152.96 |159.46 |166.26 |173.46 |
 | Lower bounds | 1.37  | 8.87  |16.67  |24.87  |33.57  |42.57  |52.07  |61.27  |70.07  |78.57  |86.67  |94.47  |101.97 |108.47 |113.47 |117.47 |121.77 |126.47 |131.67 |137.17 |142.77 |148.87 |155.37 |162.17 |169.37 |
 
-9. 10 scenarios of electric vehicle piles (KW):
+1. 10 scenarios of electric vehicle piles (KW):
 
 | Scenario | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
